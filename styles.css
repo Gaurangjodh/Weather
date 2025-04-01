@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+        .cinzel{
+            font-family: "Cinzel", serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            /* background: linear-gradient(to right, #4facfe, #00f2fe); */
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 400px;
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px)
+        }
+        input {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            background: #4facfe;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background: #00f2fe;
+        }
+        #weather-info {
+            margin-top: 20px;
+            font-size: 18px;
+        }
