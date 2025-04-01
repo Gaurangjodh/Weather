@@ -7,9 +7,11 @@
         }
         body {
             font-family: Arial, sans-serif;
-            /* background: linear-gradient(to right, #4facfe, #00f2fe); */
+            background: linear-gradient(to right, #4facfe, #00f2fe);
             text-align: center;
             padding: 20px;
+            position: relative;
+            transition: background-color 2s ease-in;
         }
         .container {
             max-width: 400px;
@@ -41,4 +43,31 @@
         #weather-info {
             margin-top: 20px;
             font-size: 18px;
+        }
+        .bg-icon{ 
+            height: 500px;
+            width: 500px;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        .sun{
+            background-image: url("sun.svg");
+            
+        }
+        .snow{
+            background-image: url("snow.svg");
+        }
+        .rain{
+            background-image: url("rain.svg");
+        }
+        .clouds{
+            background-image: url("cloud.svg");
+        }
+        .default{
+            background-image: none;
+        }
+        .bg-icon img{
+            height: 400;
+            width: 400;
         }
